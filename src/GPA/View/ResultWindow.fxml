@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="240.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GPA.controller.ResultController">
+   <children>
+      <Label layoutX="81.0" layoutY="45.0" text="Here are your grades(๑*◡*๑):" textFill="#14eebf">
+         <font>
+            <Font name="Arial Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="81.0" layoutY="160.0" text="GPA for ECUST students: ">
+         <font>
+            <Font name="Calibri" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="81.0" layoutY="90.0" text="Total credit point(s):">
+         <font>
+            <Font name="Calibri" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="81.0" layoutY="195.0" text="GPA for NBUT students: ">
+         <font>
+            <Font name="Calibri" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="allCreditPoints" layoutX="380.0" layoutY="90.0" prefHeight="36.0" prefWidth="91.0" text="Label">
+         <font>
+            <Font name="Calibri" size="25.0" />
+         </font></Label>
+      <Label fx:id="ECUSTsGPA" layoutX="380.0" layoutY="160.0" prefHeight="36.0" prefWidth="91.0" text="Label">
+         <font>
+            <Font name="Calibri" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="NBUTsGPA" layoutX="380.0" layoutY="195.0" prefHeight="36.0" prefWidth="91.0" text="Label">
+         <font>
+            <Font name="Calibri" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="81.0" layoutY="125.0" text="Average grade:">
+         <font>
+            <Font name="Calibri" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="avGrade" layoutX="380.0" layoutY="125.0" prefHeight="36.0" prefWidth="91.0" text="Label">
+         <font>
+            <Font name="Calibri" size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

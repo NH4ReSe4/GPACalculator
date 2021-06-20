@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="452.0" prefWidth="822.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="25.0" layoutY="22.0" text="Some hints">
+         <font>
+            <Font name="Calibri Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="70.0" text="1.Correct grade range:">
+         <font>
+            <Font name="Calibri" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="83.0" layoutY="100.0" text="(1) Percentage Number: [0,100]">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="83.0" layoutY="125.0" text="(2) Letter Grade: F, D, C-, C, C+, B-, B, B+, A-,A (There is only A, B, C, D, F for NBUT students)">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="155.0" text="2. Calculation rules:">
+         <font>
+            <Font name="Calibri" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="83.0" layoutY="185.0" text="(1) For NBUT students:">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="120.0" layoutY="210.0" text="&lt;i&gt; Percentage Number: GPA = grade * 0.1 - 5">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="120.0" layoutY="235.0" prefHeight="23.0" prefWidth="457.0" text="&lt;ii&gt;Letter Grade: F-&gt; 45; D-&gt;65; C-&gt;75; B-&gt;85; A-&gt;95">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="83.0" layoutY="260.0" text="(1) For ECUST students:">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="120.0" layoutY="285.0" text="0 - 59">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="171.0" layoutY="285.0" text="60 - 61">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="240.0" layoutY="285.0" text="62 - 65">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="300.0" layoutY="285.0" text="66 - 70">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="360.0" layoutY="285.0" text="71 - 74">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="420.0" layoutY="285.0" text="75 - 77">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="540.0" layoutY="285.0" text="82 - 84">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="600.0" layoutY="285.0" text="85 - 89">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="660.0" layoutY="285.0" text="90 - 100">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="480.0" layoutY="285.0" text="78 - 81">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="138.0" layoutY="308.0" text="F">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="323.0" layoutY="308.0" text="C">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="193.0" layoutY="308.0" text="D">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="262.0" layoutY="308.0" text="C-">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="503.0" layoutY="308.0" text="B">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="383.0" layoutY="308.0" text="C+">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="443.0" layoutY="308.0" text="B-">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="683.0" layoutY="308.0" text="A">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="623.0" layoutY="308.0" text="A-">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="563.0" layoutY="308.0" text="B+">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="128.0" layoutY="335.0" text="0.0">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="186.0" layoutY="335.0" text="1.0">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="252.0" layoutY="334.0" text="1.4">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="314.0" layoutY="335.0" text="1.8">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="378.0" layoutY="335.0" text="2.3">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="437.0" layoutY="333.0" text="2.7">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="495.0" layoutY="335.0" text="3.0">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="557.0" layoutY="334.0" text="3.3">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="617.0" layoutY="335.0" text="3.7">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="675.0" layoutY="335.0" text="4.0">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="364.0" text="3.You can click the Course Name to edit them!">
+         <font>
+            <Font name="Calibri" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="401.0" text="4. DO NOT CLICK THE TITLE IN THE MAIN WINDOW!" textFill="#f70c0c">
+         <font>
+            <Font name="Calibri" size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

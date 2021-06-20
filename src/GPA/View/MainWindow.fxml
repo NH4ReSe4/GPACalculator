@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GPA.controller.GPACalculatorController">
+   <top>
+      <Label fx:id="titleInTheMainWindow" text="GPA Calculator" textFill="#24d5f8" BorderPane.alignment="CENTER" onMouseClicked="#extraScene">
+         <font>
+            <Font size="32.0" />
+         </font>
+         <BorderPane.margin>
+            <Insets bottom="15.0" />
+         </BorderPane.margin>
+      </Label>
+   </top>
+   <left>
+      <VBox prefHeight="744.0" prefWidth="296.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" onMouseClicked="#clickCourseName" text="Course Name" VBox.vgrow="ALWAYS">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="70.0" />
+               </VBox.margin>
+            </Label>
+            <TextField fx:id="courseName1" alignment="CENTER" editable="false" promptText="Course 1">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="courseName2" alignment="CENTER" editable="false" promptText="Course 2">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="courseName3" alignment="CENTER" editable="false" promptText="Course 3">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="courseName4" alignment="CENTER" editable="false" promptText="Course 4">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="courseName5" alignment="CENTER" editable="false" promptText="Course 5">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="courseName6" alignment="CENTER" editable="false" promptText="Course 6">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="courseName7" alignment="CENTER" editable="false" promptText="Course 7">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="courseName8" alignment="CENTER" editable="false" promptText="Course 8">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="courseName9" alignment="CENTER" editable="false" promptText="Course 9">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="courseName10" alignment="CENTER" editable="false" promptText="Course 10">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="courseName11" alignment="CENTER" editable="false" promptText="Course 11">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="courseName12" alignment="CENTER" editable="false" promptText="Course 12">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="courseName13" alignment="CENTER" editable="false" promptText="Course 13">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="courseName14" alignment="CENTER" editable="false" promptText="Course 14">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="courseName15" alignment="CENTER" editable="false" promptText="Course 15">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="courseName16" alignment="CENTER" editable="false" promptText="Course 16">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="courseName17" alignment="CENTER" editable="false" promptText="Course 17">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="courseName18" alignment="CENTER" editable="false" promptText="Course 18">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="courseName19" alignment="CENTER" editable="false" promptText="Course 19">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="courseName20" alignment="CENTER" editable="false" promptText="Course 20">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+         </children>
+         <padding>
+            <Insets left="20.0" />
+         </padding>
+         <BorderPane.margin>
+            <Insets left="15.0" right="15.0" />
+         </BorderPane.margin>
+      </VBox>
+   </left>
+   <center>
+      <VBox BorderPane.alignment="CENTER">
+         <children>
+            <Label text="Grade">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="70.0" />
+               </VBox.margin>
+            </Label>
+            <TextField fx:id="grade1" alignment="CENTER" text="0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="grade2" alignment="CENTER" layoutX="10.0" layoutY="37.0" text="0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="grade3" alignment="CENTER" layoutX="10.0" layoutY="60.0" text="0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="grade4" alignment="CENTER" layoutX="10.0" layoutY="37.0" text="0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="grade5" alignment="CENTER" layoutX="10.0" layoutY="83.0" text="0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="grade6" alignment="CENTER" layoutX="10.0" layoutY="60.0" text="0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="grade7" alignment="CENTER" layoutX="10.0" layoutY="37.0" text="0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="grade8" alignment="CENTER" layoutX="10.0" layoutY="106.0" text="0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="grade9" alignment="CENTER" layoutX="10.0" layoutY="198.0" text="0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="grade10" alignment="CENTER" layoutX="10.0" layoutY="152.0" text="0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="grade11" alignment="CENTER" layoutX="10.0" layoutY="175.0" text="0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="grade12" alignment="CENTER" layoutX="10.0" layoutY="129.0" text="0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="grade13" alignment="CENTER" layoutX="10.0" layoutY="83.0" text="0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="grade14" alignment="CENTER" layoutX="10.0" layoutY="60.0" text="0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="grade15" alignment="CENTER" layoutX="10.0" layoutY="37.0" text="0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="grade16" alignment="CENTER" layoutX="10.0" layoutY="106.0" text="0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="grade17" alignment="CENTER" layoutX="10.0" layoutY="198.0" text="0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="grade18" alignment="CENTER" layoutX="10.0" layoutY="221.0" text="0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="grade19" alignment="CENTER" layoutX="10.0" layoutY="244.0" text="0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="grade20" alignment="CENTER" layoutX="10.0" layoutY="359.0" text="0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+         </children>
+         <padding>
+            <Insets left="40.0" right="20.0" />
+         </padding>
+         <BorderPane.margin>
+            <Insets left="10.0" />
+         </BorderPane.margin>
+      </VBox>
+   </center>
+   <right>
+      <VBox prefHeight="617.0" prefWidth="296.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="Credits">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="65.0" />
+               </VBox.margin>
+            </Label>
+            <TextField fx:id="credit1" alignment="CENTER" text="0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="credit2" alignment="CENTER" text="0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="credit3" alignment="CENTER" layoutX="10.0" layoutY="60.0" prefHeight="29.0" prefWidth="303.0" text="0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="credit4" alignment="CENTER" layoutX="10.0" layoutY="37.0" text="0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="credit5" alignment="CENTER" layoutX="10.0" layoutY="60.0" text="0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="credit6" alignment="CENTER" layoutX="10.0" layoutY="37.0" text="0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="credit7" alignment="CENTER" layoutX="10.0" layoutY="83.0" text="0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="credit8" alignment="CENTER" layoutX="10.0" layoutY="106.0" text="0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="credit9" alignment="CENTER" layoutX="10.0" layoutY="175.0" text="0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="credit10" alignment="CENTER" layoutX="10.0" layoutY="129.0" text="0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="credit11" alignment="CENTER" layoutX="10.0" layoutY="106.0" text="0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="credit12" alignment="CENTER" layoutX="10.0" layoutY="198.0" text="0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="credit13" alignment="CENTER" layoutX="10.0" layoutY="152.0" text="0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="credit14" alignment="CENTER" layoutX="10.0" layoutY="290.0" text="0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="credit15" alignment="CENTER" layoutX="10.0" layoutY="267.0" text="0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="credit16" alignment="CENTER" layoutX="10.0" layoutY="244.0" text="0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="credit17" alignment="CENTER" layoutX="10.0" layoutY="313.0" text="0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="credit18" alignment="CENTER" layoutX="10.0" layoutY="221.0" text="0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="credit19" alignment="CENTER" layoutX="10.0" layoutY="382.0" text="0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="credit20" alignment="CENTER" layoutX="10.0" layoutY="359.0" text="0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+         </children>
+         <padding>
+            <Insets left="40.0" right="60.0" />
+         </padding>
+         <BorderPane.margin>
+            <Insets right="10.0" />
+         </BorderPane.margin>
+      </VBox>
+   </right>
+   <bottom>
+      <AnchorPane onMouseClicked="#clickSubmitButton" prefHeight="52.0" prefWidth="900.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="400.0" layoutY="15.0" mnemonicParsing="false" onMouseClicked="#clickSubmitButton" prefHeight="40.0" prefWidth="100.0" text="Submit" textFill="#1e1d1d">
+               <font>
+                  <Font name="Arial Bold" size="17.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets left="15.0" top="50.0" />
+               </opaqueInsets>
+            </Button>
+            <Button layoutX="650.0" layoutY="15.0" mnemonicParsing="false" onMouseClicked="#clickHelpButton" prefHeight="40.0" prefWidth="100.0" text="Help" textFill="#1e1d1d">
+               <font>
+                  <Font name="Arial Bold" size="17.0" />
+               </font>
+            </Button>
+            <Button layoutX="150.0" layoutY="15.0" mnemonicParsing="false" onMouseClicked="#clickClearButton" prefHeight="40.0" prefWidth="100.0" text="Clear" textFill="#1e1d1d">
+               <font>
+                  <Font name="Arial Bold" size="17.0" />
+               </font>
+            </Button>
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="50.0" />
+         </BorderPane.margin>
+      </AnchorPane>
+   </bottom>
+</BorderPane>
